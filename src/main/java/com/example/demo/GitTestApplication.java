@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitTestApplication {
 
     public static void test() {
-        System.out.println("Inside Test method");
+        
         String h = "hello";
-        if (h.equals("hello")) {
+        if (h.equals(Constant.DATA_TYPE)) {
             System.out.println("Hai Hello");
         }
     }
