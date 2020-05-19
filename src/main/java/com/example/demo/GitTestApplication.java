@@ -14,6 +14,11 @@ public class GitTestApplication {
         }
     }
 
+    public static void addedMethod() {
+        
+        System.out.println("Added this new method to test git pull");
+    }
+
     public static void main(String[] args) {
 
         test();
