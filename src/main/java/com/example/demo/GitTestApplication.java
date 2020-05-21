@@ -6,9 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GitTestApplication {
 
+    private static Order order = new Order();
+
     public static void test() {
-        
-        String h = "hello";
+
+        String h = order.getName();
         if (h.equals(Constant.DATA_TYPE)) {
             System.out.println("Hai Hello");
         }
